@@ -1,0 +1,353 @@
+<?xml version="1.0" ?>
+<WikiSegments source="../updated_wiki_data_json" include_rejected="false" normalize_text="true" preserve_paragraphs="false">
+  <Segment id="19775833_161772_06">
+    
+    
+    <Filename>19775833_161772.json</Filename>
+    
+    
+    <DocumentTitle>Sự qua đời và tang lễ của Giáo hoàng Biển Đức XVI</DocumentTitle>
+    
+    
+    <SegmentNumber>06</SegmentNumber>
+    
+    
+    <SegmentTitle>Thánh lễ cầu nguyện và nghi thức an táng</SegmentTitle>
+    
+    
+    <SegmentText>Phía Tòa Thánh xác nhận Giáo hoàng Phanxicô sẽ chủ sự thánh lễ cầu nguyện cho linh hồn nguyên Giáo hoàng Biển Đức XVI vào lúc 9:30 sáng Thứ Năm ngày 5 tháng 1, 2023. Dù nghi thức an táng vẫn tuân thủ khuôn mẫu chung của Giáo hội dành cho một phẩm vị cao cấp, nhưng những phần liên quan đến giáo hoàng đương nhiệm sẽ được lược bỏ cho phù hợp với địa vị nguyên giáo hoàng của Biển Đức XVI. Chẳng hạn, lời cầu dành cho Giáo phận Rôma và các Giáo hội Đông phương bị lược bỏ. Ông sẽ được an táng dưới hầm mộ Vương cung thánh đường Thánh Phêrô, ngay trong phần mộ từng chôn cất hai vị giáo hoàng trước đó là Giáo hoàng Gioan XXIII và Giáo hoàng Gioan Phaolô II (hai vị này hiện đã được cải táng sang một vị trí khác).</SegmentText>
+    
+    
+    <SegmentCount>6</SegmentCount>
+    
+    
+    <CharCount>711</CharCount>
+    
+    
+    <RejectedForQA>false</RejectedForQA>
+    
+    
+    <ReasonForRejected/>
+    
+    
+    <QA empty="false">
+      
+      
+      <Question id="q_19775833_161772_06_1">
+        
+        
+        <QuestionType>option_selection</QuestionType>
+        
+        
+        <QuestionText>Những phần nào trong nghi thức an táng sẽ bị lược bỏ cho phù hợp với địa vị nguyên giáo hoàng của Biển Đức XVI?</QuestionText>
+        
+        
+        <Choices>
+          
+          
+          <Choice id="0">Lời cầu dành cho Giáo phận Rôma và các Giáo hội Đông phương</Choice>
+          
+          
+          <Choice id="1">Lời cầu nguyện cho các vị giáo hoàng đương nhiệm</Choice>
+          
+          
+          <Choice id="2">Phần nghi thức dành cho các nguyên thủ quốc gia</Choice>
+          
+          
+          <Choice id="3">Tất cả các lựa chọn trên</Choice>
+          
+        
+        </Choices>
+        
+        
+        <CorrectChoice>0</CorrectChoice>
+        
+      
+      </Question>
+      
+    
+    </QA>
+    
+  
+  </Segment>
+  <Segment id="199183_852840_02">
+    
+    
+    <Filename>199183_852840.json</Filename>
+    
+    
+    <DocumentTitle>Trận Đồi Thịt Băm</DocumentTitle>
+    
+    
+    <SegmentNumber>02</SegmentNumber>
+    
+    
+    <SegmentTitle>Bối cảnh</SegmentTitle>
+    
+    
+    <SegmentText>A Bia là điểm cao đột xuất (937m) nằm giữa vùng rừng núi trùng điệp gần biên giới Việt-Lào (cách 1,9 km). Đỉnh A Bia có ba mỏm đứng thế chân kiềng cao xấp xỉ nhau, cách nhau khoảng 400m. Trước đây Mỹ đã lên A Bia đóng dã ngoại, nay còn nguyên công sự, xung quanh chất đống nhiều vỏ đồ hộp... Đỉnh A Bia bị bom pháo phát quang nham nhở, trơ lại những thân cây khô cháy. Toàn bộ núi là một dải gồ ghề, hoang dã bao phủ bởi rừng với những tán tre mọc dày đặc cộng vởi cỏ voi cao ngang thắt lưng. Cỏ có khi cao hơn cả một xe bọc thép M-113. Các dân tộc địa phương gọi A Bia là &quot;núi muông thú ẩn mình&quot;.</SegmentText>
+    
+    
+    <SegmentCount>10</SegmentCount>
+    
+    
+    <CharCount>597</CharCount>
+    
+    
+    <RejectedForQA>false</RejectedForQA>
+    
+    
+    <ReasonForRejected/>
+    
+    
+    <QA empty="false">
+      
+      
+      <Question id="q_199183_852840_02_1">
+        
+        
+        <QuestionType>wh_question</QuestionType>
+        
+        
+        <QuestionText>Đỉnh A Bia nằm gần biên giới của Việt Nam với quốc gia nào?</QuestionText>
+        
+        
+        <Choices>
+          
+          
+          <Choice id="0">Campuchia</Choice>
+          
+          
+          <Choice id="1">Lào</Choice>
+          
+          
+          <Choice id="2">Trung Quốc</Choice>
+          
+          
+          <Choice id="3">Thái Lan</Choice>
+          
+        
+        </Choices>
+        
+        
+        <CorrectChoice>1</CorrectChoice>
+        
+      
+      </Question>
+      
+    
+    </QA>
+    
+  
+  </Segment>
+  <Segment id="50875_107605_03">
+    
+    
+    <Filename>50875_107605.json</Filename>
+    
+    
+    <DocumentTitle>Lịch La Mã</DocumentTitle>
+    
+    
+    <SegmentNumber>03</SegmentNumber>
+    
+    
+    <SegmentTitle>Lịch Numa</SegmentTitle>
+    
+    
+    <SegmentText>Vị vua thứ hai của La Mã là Numa Pompillus (715-673 TCN) đã cải tiến lịch Romulus, bằng cách cộng 51 ngày dư của Romulus vào, giảm 6 tháng có 30 ngày xuống còn 29 ngày (50 + 6 = 56), từ đó thêm vào lịch 2 tháng có 28 ngày, đặt tên là: Ngoài ra, Numa cộng thêm 1 ngày vào tháng Februarius, cứ 4 năm 1 lần, và vào năm này ông cho thêm 1 tháng gọi là &quot;mens intercalaris&quot; (tháng chênh lệch) có 29 ngày vào sau tháng Februarius. Như vậy, lịch Numa bao gồm: Như vậy, một năm theo lịch Numa có 354 ngày (hay 384 ngày vào năm có &quot;mens intercalis&quot;). Tuy nhiên, người La Mã vốn kiêng con số chẵn, nên đã cho tháng Ianuarius thêm 1 ngày thành 29 ngày, và từ đó 1 năm bình thường có 355 ngày và vào năm có &quot;mens intercalaris&quot; thì có 385 ngày. Tính bình quân trong 4 năm, mỗi năm có 362,5 ngày. Những ngày chênh lệch còn lại so với năm thiên văn (365,2564 ngày mặt trời trung bình) được bù đắp bằng cách thêm vào không theo một quy luật đều đặn nào.</SegmentText>
+    
+    
+    <SegmentCount>4</SegmentCount>
+    
+    
+    <CharCount>936</CharCount>
+    
+    
+    <RejectedForQA>false</RejectedForQA>
+    
+    
+    <ReasonForRejected/>
+    
+    
+    <QA empty="false">
+      
+      
+      <Question id="q_50875_107605_03_1">
+        
+        
+        <QuestionType>option_selection</QuestionType>
+        
+        
+        <QuestionText>Vị vua Numa Pompillus đã thêm bao nhiêu tháng vào lịch?</QuestionText>
+        
+        
+        <Choices>
+          
+          
+          <Choice id="0">2</Choice>
+          
+          
+          <Choice id="1">1</Choice>
+          
+          
+          <Choice id="2">5</Choice>
+          
+          
+          <Choice id="3">6</Choice>
+          
+        
+        </Choices>
+        
+        
+        <CorrectChoice>0</CorrectChoice>
+        
+      
+      </Question>
+      
+    
+    </QA>
+    
+  
+  </Segment>
+  <Segment id="18449065_686003_03">
+    
+    
+    <Filename>18449065_686003.json</Filename>
+    
+    
+    <DocumentTitle>Giải đấu Ứng viên 2020–21</DocumentTitle>
+    
+    
+    <SegmentNumber>03</SegmentNumber>
+    
+    
+    <SegmentTitle>Tuyển theo Elo</SegmentTitle>
+    
+    
+    <SegmentText>Kỳ thủ được tuyển theo Elo là người chơi có xếp hạng trung bình cao nhất trong 12 bảng xếp hạng từ tháng 2 năm 2019 đến tháng 1 năm 2020 mà không đủ điều kiện theo các tiêu chí khác. Để đủ điều kiện, kỳ thủ phải thi đấu ít nhất 30 ván trong 12 bảng xếp hạng và ít nhất 18 ván trong 6 bảng xếp hạng cuối cùng. Bảng dưới đây cho thấy thứ tự của các kỳ thủ có Elo trung bình hàng đầu trong khoảng thời gian một năm từ tháng 2 năm 2019 đến tháng 1 năm 2020. Danh sách bao gồm sáu kỳ thủ nằm trong nhóm mười một kỳ thủ đầu tiên, ngoại trừ nhà vô địch thế giới Magnus Carlsen cùng các kỳ thủ đã có suất dự giải thông qua các tiêu chí khác là Fabiano Caruana, Đinh Lập Nhân, Alexander Grischuk và Ian Nepomniachtchi. Tất cả các kỳ thủ trong bảng đều đáp ứng yêu cầu về số lượng ván đấu tối thiểu như trên. Kỳ thủ được tuyển theo tiêu chí này là Anish Giri.</SegmentText>
+    
+    
+    <SegmentCount>14</SegmentCount>
+    
+    
+    <CharCount>849</CharCount>
+    
+    
+    <RejectedForQA>false</RejectedForQA>
+    
+    
+    <ReasonForRejected/>
+    
+    
+    <QA empty="false">
+      
+      
+      <Question id="q_18449065_686003_03_1">
+        
+        
+        <QuestionType>wh_question</QuestionType>
+        
+        
+        <QuestionText>Để đủ điều kiện tham gia, một kỳ thủ phải thi đấu bao nhiêu ván trong 12 bảng xếp hạng?</QuestionText>
+        
+        
+        <Choices>
+          
+          
+          <Choice id="0">Ít nhất 18 ván</Choice>
+          
+          
+          <Choice id="1">Ít nhất 30 ván</Choice>
+          
+          
+          <Choice id="2">Ít nhất 6 ván</Choice>
+          
+          
+          <Choice id="3">Ít nhất 12 ván</Choice>
+          
+        
+        </Choices>
+        
+        
+        <CorrectChoice>1</CorrectChoice>
+        
+      
+      </Question>
+      
+    
+    </QA>
+    
+  
+  </Segment>
+  <Segment id="19484660_843044_04">
+    
+    
+    <Filename>19484660_843044.json</Filename>
+    
+    
+    <DocumentTitle>Vasily Nesterovich Savvin</DocumentTitle>
+    
+    
+    <SegmentNumber>04</SegmentNumber>
+    
+    
+    <SegmentTitle>Qua đời và vinh danh</SegmentTitle>
+    
+    
+    <SegmentText>Savvin qua đời tại Sankt-Peterburg vào ngày 24 tháng 2 năm 2020 ở tuổi 80. Tướng quân đội Viktor Vasilyevich Zolotov, Tư lệnh Lực lượng Vệ binh Quốc gia Nga, tổ chức kế nhiệm của Lực lượng Nội vụ đã gửi lời chia buồn và phát biểu rằng &quot;Vasily Nesterovich là một người dũng cảm, ý chí mạnh mẽ, một sĩ quan Nga thực sự đã cống hiến cả đời mình để phục vụ Tổ quốc và củng cố nền an ninh quốc gia của đất nước. Ông ấy luôn đương đầu với công việc một cách danh dự, trong những tình huống khẩn cấp khó khăn nhất ông ấy đã thể hiện một bản lĩnh vững vàng và sẵn sàng giúp đỡ.&quot; Savvin được chôn cất tại Nghĩa trang Serafimovskoe của Sankt-Peterburg vào ngày 28 tháng 2. Trong suốt sự nghiệp của mình, ông đã được tặng thưởng Huân chương Sao Đỏ và Huân chương &quot;Vì Tổ quốc trong Lực lượng vũ trang Liên Xô&quot; hạng Ba, cũng như nhiều huân chương khác nhau.</SegmentText>
+    
+    
+    <SegmentCount>4</SegmentCount>
+    
+    
+    <CharCount>844</CharCount>
+    
+    
+    <RejectedForQA>false</RejectedForQA>
+    
+    
+    <ReasonForRejected/>
+    
+    
+    <QA empty="false">
+      
+      
+      <Question id="q_19484660_843044_04_1">
+        
+        
+        <QuestionType>wh_question</QuestionType>
+        
+        
+        <QuestionText>Savvin qua đời vào năm nào?</QuestionText>
+        
+        
+        <Choices>
+          
+          
+          <Choice id="0">1939</Choice>
+          
+          
+          <Choice id="1">1941</Choice>
+          
+          
+          <Choice id="2">2020</Choice>
+          
+          
+          <Choice id="3">1959</Choice>
+          
+        
+        </Choices>
+        
+        
+        <CorrectChoice>2</CorrectChoice>
+        
+      
+      </Question>
+      
+    
+    </QA>
+    
+  
+  </Segment>
+</WikiSegments>
