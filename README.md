@@ -2,8 +2,12 @@
 
 Hướng dẫn này giải thích cách cài đặt và chạy công cụ xác thực dữ liệu câu hỏi XML.
 
+## Tệp XML
+- Tệp mẫu `placeholder.xml` được cung cấp.
+- Sử dụng tệp XML của bạn nếu được cung cấp, đảm bảo đúng cấu trúc. [Link đến drive của xml](https://drive.google.com/drive/u/1/folders/1gY8RWgrZnkmE3UnRUGauFLuqlzWIK9Kw)
+
 ## Video Hướng Dẫn
-Xem video hướng dẫn cài đặt: [Link đến video](#).
+Xem video hướng dẫn cài đặt: [Link đến video](https://drive.google.com/file/d/17ufZjjW4X4WwbIQs47Cm1ehHFoY2pMG4/view?usp=drive_link).
 
 ## Yêu Cầu
 - Python 3.9 trở lên (bao gồm `tkinter` trên Windows/macOS; Linux cần cài `python3-tk`).
@@ -41,6 +45,3 @@ Xem video hướng dẫn cài đặt: [Link đến video](#).
 - **Không tìm thấy tệp**: Đảm bảo tệp XML trong cùng thư mục với file .py và đường dẫn đúng.
 - Liên hệ với mình nếu có vấn đề.
 
-## Tệp XML
-- Tệp mẫu `placeholder.xml` được cung cấp.
-- Sử dụng tệp XML của bạn nếu được cung cấp, đảm bảo đúng cấu trúc. [Link đến drive của xml](#)
