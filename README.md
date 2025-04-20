@@ -7,7 +7,7 @@ Hướng dẫn này giải thích cách cài đặt và chạy công cụ xác t
 - Sử dụng tệp XML của bạn nếu được cung cấp, đảm bảo đúng cấu trúc. [Link đến drive của xml](https://drive.google.com/drive/u/1/folders/1gY8RWgrZnkmE3UnRUGauFLuqlzWIK9Kw)
 
 ## Video Hướng Dẫn
-Xem video hướng dẫn cài đặt: [Link đến video](https://drive.google.com/file/d/17ufZjjW4X4WwbIQs47Cm1ehHFoY2pMG4/view?usp=drive_link).
+Xem video hướng dẫn cài đặt: [Link đến video](https://drive.google.com/drive/u/1/folders/1Bil29DSeuOHmHeLr6tev7x7bzhmgracQ).
 
 ## Yêu Cầu
 - Python 3.9 trở lên (bao gồm `tkinter` trên Windows/macOS; Linux cần cài `python3-tk`).
