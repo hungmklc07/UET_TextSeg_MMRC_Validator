@@ -1,9 +1,12 @@
+
 #!/usr/bin/env python3
 """
 Compact XML Question Validation Tool
 
 A lightweight validation tool for XML question data with all UI elements on a single screen.
 Automatically saves progress when moving between questions or exiting.
+Updated to use a 6-checkbox checklist with tooltip colors matching UI theme, tooltips positioned
+to the left of checkboxes, and JSON output explicitly storing percentage of each checkbox checked.
 """
 
 import os
@@ -11,9 +14,43 @@ import sys
 import tkinter as tk
 from tkinter import ttk, scrolledtext, filedialog, messagebox
 import xml.etree.ElementTree as ET
-import csv
 import json
 from datetime import datetime
+
+class Tooltip:
+    """Create a tooltip for a Tkinter widget"""
+    def __init__(self, widget, text):
+        self.widget = widget
+        self.text = text
+        self.tooltip_window = None
+        self.widget.bind("<Enter>", self.show_tooltip)
+        self.widget.bind("<Leave>", self.hide_tooltip)
+
+    def show_tooltip(self, event=None):
+        # Position tooltip to the left of the checkbox
+        tooltip_width = 200  # Estimated width based on wraplength
+        x = self.widget.winfo_rootx() - tooltip_width - 10  # 10px gap to the left
+        y = self.widget.winfo_rooty()  # Align top with checkbox
+        self.tooltip_window = tw = tk.Toplevel(self.widget)
+        tw.wm_overrideredirect(True)
+        tw.wm_geometry(f"+{x}+{y}")
+        label = tk.Label(
+            tw,
+            text=self.text,
+            background="#d9d9d9",  # Matches Tkinter default UI background
+            foreground="#000000",  # Black text for contrast
+            relief="solid",
+            borderwidth=1,
+            bd=1,
+            highlightbackground="#000000",  # Black border
+            wraplength=200
+        )
+        label.pack()
+
+    def hide_tooltip(self, event=None):
+        if self.tooltip_window:
+            self.tooltip_window.destroy()
+            self.tooltip_window = None
 
 class CompactXMLValidator:
     def __init__(self, root, xml_file=None):
@@ -24,7 +61,7 @@ class CompactXMLValidator:
         # Application state
         self.segments = []
         self.current_index = 0
-        self.ratings = {}
+        self.checklist = {}  # Stores checklist states {question_id: {criterion: bool}}
         self.comments = {}
         
         # Create main UI
@@ -77,7 +114,7 @@ class CompactXMLValidator:
         self.progress_bar = ttk.Progressbar(progress_frame, orient=tk.HORIZONTAL, mode='determinate')
         self.progress_bar.pack(fill=tk.X)
         
-        # Content area - all on one screen
+        # Content area
         content_frame = ttk.Frame(main_frame)
         content_frame.pack(fill=tk.BOTH, expand=True, pady=5)
         
@@ -110,26 +147,36 @@ class CompactXMLValidator:
         right_frame = ttk.Frame(content_frame)
         right_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=(5, 0))
         
-        # Rating frame
-        rating_frame = ttk.LabelFrame(right_frame, text="Rating (1-5 stars)")
-        rating_frame.pack(fill=tk.X, pady=5)
+        # Checklist frame
+        checklist_frame = ttk.LabelFrame(right_frame, text="Reasoning Quality Checklist")
+        checklist_frame.pack(fill=tk.X, pady=5)
         
-        # Rating variable
-        self.rating_var = tk.IntVar()
+        # Checklist variables
+        self.checklist_vars = {
+            "single_sentence": tk.BooleanVar(value=False),
+            "multiple_sentences": tk.BooleanVar(value=False),
+            "low_quality_distractors": tk.BooleanVar(value=False),
+            "unsuitable_paragraph": tk.BooleanVar(value=False),
+            "unclear_answer": tk.BooleanVar(value=False),
+            "outside_knowledge": tk.BooleanVar(value=False)
+        }
         
-        # Rating buttons
-        rating_buttons = ttk.Frame(rating_frame)
-        rating_buttons.pack(pady=10)
+        # Checklist checkboxes with tooltips
+        checklist_items = [
+            ("Cần một câu", "single_sentence", "Đánh dấu nếu câu hỏi chỉ cần thông tin từ một câu trong đoạn văn để trả lời."),
+            ("Cần nhiều câu", "multiple_sentences", "Đánh dấu nếu câu hỏi cần thông tin từ nhiều câu trong đoạn văn để trả lời."),
+            ("Lựa chọn sai kém chất lượng", "low_quality_distractors", "Đánh dấu nếu các lựa chọn sai không liên quan đến đoạn văn hoặc quá dễ loại bỏ, làm đáp án đúng quá rõ ràng."),
+            ("Đoạn văn không phù hợp", "unsuitable_paragraph", "Đánh dấu nếu đoạn văn quá nhạy cảm, liên quan đến chính trị, hoặc không phù hợp để đặt câu hỏi."),
+            ("Đáp án không rõ ràng", "unclear_answer", "Đánh dấu nếu câu hỏi có nhiều đáp án đúng hoặc đáp án đúng không rõ ràng dựa trên đoạn văn."),
+            ("Cần kiến thức ngoài", "outside_knowledge", "Đánh dấu nếu câu hỏi hoặc đáp án cần kiến thức bên ngoài đoạn văn để trả lời.")
+        ]
         
-        for i in range(1, 6):
-            rb = ttk.Radiobutton(
-                rating_buttons, 
-                text=f"{i}", 
-                variable=self.rating_var, 
-                value=i,
-                command=self.save_current_rating
-            )
-            rb.pack(side=tk.LEFT, padx=10)
+        for label, var_key, tooltip in checklist_items:
+            cb_frame = ttk.Frame(checklist_frame)
+            cb_frame.pack(fill=tk.X, pady=2)
+            cb = ttk.Checkbutton(cb_frame, text=label, variable=self.checklist_vars[var_key], command=self.save_current_checklist)
+            cb.pack(side=tk.LEFT)
+            Tooltip(cb, tooltip)
         
         # Comments frame
         comments_frame = ttk.LabelFrame(right_frame, text="Comments")
@@ -138,10 +185,10 @@ class CompactXMLValidator:
         self.comments_text = scrolledtext.ScrolledText(comments_frame, wrap=tk.WORD)
         self.comments_text.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
         
-        # Bind event to save comment when text changes
+        # Bind event to save comment
         self.comments_text.bind("<KeyRelease>", self.save_current_comment)
         
-        # Status bar at bottom
+        # Status bar
         status_frame = ttk.Frame(main_frame)
         status_frame.pack(fill=tk.X, pady=(5, 0))
         
@@ -164,53 +211,33 @@ class CompactXMLValidator:
             tree = ET.parse(file_path)
             root = tree.getroot()
             
-            # Store file path for later
             self.xml_file_path = file_path
-            
-            # Reset data
             self.segments = []
             
-            # Debug print
-            print(f"Root tag: {root.tag}")
-            print(f"Number of children: {len(root)}")
-            for i, child in enumerate(root):
-                print(f"Child {i}: {child.tag} (id: {child.get('id', 'None')})")
-            
-            # Extract segments from XML
             for segment in root.findall("Segment"):
                 segment_id = segment.get("id")
-                
-                # Get segment data
                 segment_text = segment.find("SegmentText")
                 if segment_text is None or not segment_text.text:
                     continue
                 
-                # Extract document and segment titles
                 doc_title = segment.find("DocumentTitle")
                 doc_title_text = doc_title.text if doc_title is not None else "Unknown"
                 
                 segment_title = segment.find("SegmentTitle")
                 segment_title_text = segment_title.text if segment_title is not None else ""
                 
-                # Find QA element
                 qa_elem = segment.find("QA")
                 if qa_elem is None:
                     continue
                 
-                # Find questions within QA
                 for question_elem in qa_elem.findall("Question"):
                     question_id = question_elem.get("id")
-                    
-                    # Get question type
                     question_type_elem = question_elem.find("QuestionType")
                     question_type = question_type_elem.text if question_type_elem is not None else ""
-                    
-                    # Get question text
                     question_text_elem = question_elem.find("QuestionText")
                     if question_text_elem is None or not question_text_elem.text:
                         continue
                     
-                    # Get choices
                     choices_elem = question_elem.find("Choices")
                     if choices_elem is None:
                         continue
@@ -221,11 +248,9 @@ class CompactXMLValidator:
                         if choice_elem.text:
                             choices.append({"id": choice_id, "text": choice_elem.text})
                     
-                    # Get correct choice
                     correct_choice_elem = question_elem.find("CorrectChoice")
                     correct_choice = correct_choice_elem.text if correct_choice_elem is not None else ""
                     
-                    # Add to segments list
                     self.segments.append({
                         "segment_id": segment_id,
                         "document_title": doc_title_text,
@@ -238,30 +263,11 @@ class CompactXMLValidator:
                         "correct_choice": correct_choice
                     })
             
-            # If no segments found with direct approach, try a more generic approach
-            if not self.segments:
-                print("No segments found with direct approach, trying more generic XPath...")
-                # Try with any path
-                for segment in root.findall(".//Segment"):
-                    # Same processing as above...
-                    segment_id = segment.get("id")
-                    print(f"Found segment with XPath: {segment_id}")
-                    
-                    # Same extraction code as above...
-                    # (omitted for brevity)
-            
-            # Load the first question if available
             if self.segments:
                 print(f"Successfully loaded {len(self.segments)} questions")
                 self.status_label.config(text=f"Loaded {len(self.segments)} questions from {os.path.basename(file_path)}")
-                
-                # Try to load saved progress
                 self.try_load_progress()
-                
-                # Update progress
                 self.update_progress_bar()
-                
-                # Set window title to include file name
                 self.root.title(f"Question Validator - {os.path.basename(file_path)}")
             else:
                 messagebox.showwarning("No Data", "No valid questions found in the XML file.")
@@ -277,20 +283,15 @@ class CompactXMLValidator:
         if not self.segments or index < 0 or index >= len(self.segments):
             return
         
-        # Save current progress before changing
         self.auto_save_progress()
-        
-        # Get segment data
         data = self.segments[index]
         self.current_index = index
         
-        # Update segment text
         self.segment_text.config(state=tk.NORMAL)
         self.segment_text.delete(1.0, tk.END)
         self.segment_text.insert(tk.END, data["segment_text"])
         self.segment_text.config(state=tk.DISABLED)
         
-        # Update question text
         self.question_text.config(state=tk.NORMAL)
         self.question_text.delete(1.0, tk.END)
         question_header = f"({data['question_type']}) "
@@ -299,17 +300,14 @@ class CompactXMLValidator:
         self.question_text.tag_configure("bold", font=("TkDefaultFont", 12, "bold"))
         self.question_text.config(state=tk.DISABLED)
         
-        # Update choices
         for widget in self.choices_container.winfo_children():
             widget.destroy()
         
         for i, choice in enumerate(data["choices"]):
             is_correct = choice["id"] == data["correct_choice"]
-            
             choice_frame = ttk.Frame(self.choices_container)
             choice_frame.pack(fill=tk.X, pady=2)
             
-            # Use regular background but add a red checkmark for correct answer
             if is_correct:
                 choice_label = tk.Label(
                     choice_frame, 
@@ -319,8 +317,6 @@ class CompactXMLValidator:
                     justify=tk.LEFT
                 )
                 choice_label.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=5)
-                
-                # Add red checkmark
                 check_label = tk.Label(
                     choice_frame, 
                     text="✓", 
@@ -338,20 +334,26 @@ class CompactXMLValidator:
                 )
                 choice_label.pack(fill=tk.X, padx=5)
         
-        # Update navigation
         self.position_label.config(text=f"Question {index + 1} of {len(self.segments)}")
         self.prev_btn.config(state=tk.NORMAL if index > 0 else tk.DISABLED)
         self.next_btn.config(state=tk.NORMAL if index < len(self.segments) - 1 else tk.DISABLED)
         
-        # Update rating and comment
         question_id = data["question_id"]
-        self.rating_var.set(self.ratings.get(question_id, 0))
+        checklist_state = self.checklist.get(question_id, {
+            "single_sentence": False,
+            "multiple_sentences": False,
+            "low_quality_distractors": False,
+            "unsuitable_paragraph": False,
+            "unclear_answer": False,
+            "outside_knowledge": False
+        })
+        for key, var in self.checklist_vars.items():
+            var.set(checklist_state[key])
         
         self.comments_text.delete(1.0, tk.END)
         if question_id in self.comments:
             self.comments_text.insert(tk.END, self.comments[question_id])
         
-        # Update progress bar
         self.update_progress_bar()
     
     def prev_question(self):
@@ -362,17 +364,15 @@ class CompactXMLValidator:
         if self.current_index < len(self.segments) - 1:
             self.load_question(self.current_index + 1)
     
-    def save_current_rating(self):
+    def save_current_checklist(self):
         if not self.segments:
             return
             
         question_id = self.segments[self.current_index]["question_id"]
-        rating = self.rating_var.get()
-        
-        if rating > 0:
-            self.ratings[question_id] = rating
-            self.update_progress_bar()
-            self.show_save_indicator()
+        checklist_state = {key: var.get() for key, var in self.checklist_vars.items()}
+        self.checklist[question_id] = checklist_state
+        self.update_progress_bar()
+        self.show_save_indicator()
     
     def save_current_comment(self, event=None):
         if not self.segments:
@@ -380,7 +380,6 @@ class CompactXMLValidator:
             
         question_id = self.segments[self.current_index]["question_id"]
         comment = self.comments_text.get(1.0, tk.END).strip()
-        
         self.comments[question_id] = comment
         self.show_save_indicator()
     
@@ -389,15 +388,15 @@ class CompactXMLValidator:
             self.progress_bar["value"] = 0
             return
         
-        # Count rated questions
-        rated_count = sum(1 for r in self.ratings.values() if r > 0)
-        progress_value = (rated_count / len(self.segments)) * 100
+        # Count questions with at least one checklist item checked
+        checked_count = sum(1 for qid in [s["question_id"] for s in self.segments] 
+                          if qid in self.checklist and any(self.checklist[qid].values()))
+        progress_value = (checked_count / len(self.segments)) * 100
         self.progress_bar["value"] = progress_value
     
     def auto_save_progress(self):
         if not hasattr(self, 'xml_file_path') or not self.segments:
             return
-        
         self.save_progress(silent=True)
     
     def save_progress(self, silent=False):
@@ -406,27 +405,43 @@ class CompactXMLValidator:
                 messagebox.showinfo("No File", "Please open an XML file first.")
             return
         
-        # Calculate average rating for metadata
-        total_rated = sum(1 for r in self.ratings.values() if r > 0)
-        avg_rating = 0
-        if total_rated > 0:
-            avg_rating = sum(r for r in self.ratings.values() if r > 0) / total_rated
+        # Calculate summary stats for metadata
+        total_questions = len(self.segments)
+        checked_questions = sum(1 for qid in [s["question_id"] for s in self.segments] 
+                            if qid in self.checklist and any(self.checklist[qid].values()))
+        
+        # Calculate counts and percentages for each checkbox
+        counts = {
+            "single_sentence": 0,
+            "multiple_sentences": 0,
+            "low_quality_distractors": 0,
+            "unsuitable_paragraph": 0,
+            "unclear_answer": 0,
+            "outside_knowledge": 0
+        }
+        for qid in [s["question_id"] for s in self.segments]:
+            if qid in self.checklist:
+                for criterion, checked in self.checklist[qid].items():
+                    if checked:
+                        counts[criterion] += 1
         
         progress_data = {
             "timestamp": datetime.now().isoformat(),
-            "ratings": self.ratings,
+            "checklist": self.checklist,
             "comments": self.comments,
             "current_index": self.current_index,
             "metadata": {
-                "total_questions": len(self.segments),
-                "questions_rated": total_rated,
-                "average_rating": round(avg_rating, 2),
-                "completion_percentage": round((total_rated / len(self.segments)) * 100, 1) if self.segments else 0
+                "total_questions": total_questions,
+                "questions_checked": checked_questions,
+                "completion_percentage": round((checked_questions / total_questions) * 100, 1) if total_questions else 0,
+                "checklist_percentages": {
+                    criterion: round(count / total_questions * 100, 2) if total_questions else 0
+                    for criterion, count in counts.items()
+                }
             }
         }
         
         try:
-            # Create filename based on the XML filename
             base_name = os.path.splitext(self.xml_file_path)[0]
             progress_file = f"{base_name}_progress.json"
             
@@ -440,7 +455,7 @@ class CompactXMLValidator:
             if not silent:
                 messagebox.showerror("Error", f"Failed to save progress: {str(e)}")
             return False
-    
+
     def show_save_indicator(self):
         self.save_indicator.config(text="Saving...")
         self.root.after(1000, self.auto_save_progress)
@@ -451,12 +466,10 @@ class CompactXMLValidator:
         if not hasattr(self, 'xml_file_path'):
             return
         
-        # Create filename based on the XML filename
         base_name = os.path.splitext(self.xml_file_path)[0]
         progress_file = f"{base_name}_progress.json"
         
         if not os.path.exists(progress_file):
-            # No saved progress, just load the first question
             self.load_question(0)
             return
         
@@ -464,8 +477,8 @@ class CompactXMLValidator:
             with open(progress_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
-            if "ratings" in data:
-                self.ratings = data["ratings"]
+            if "checklist" in data:
+                self.checklist = data["checklist"]
             
             if "comments" in data:
                 self.comments = data["comments"]
@@ -479,11 +492,9 @@ class CompactXMLValidator:
             else:
                 self.load_question(0)
             
-            # Display metadata if available
-            if "metadata" in data and data["metadata"].get("average_rating") is not None:
-                avg = data["metadata"]["average_rating"]
-                completed = data["metadata"].get("completion_percentage", 0)
-                self.status_label.config(text=f"Loaded previous progress. Average rating: {avg}/5, Completion: {completed}%")
+            if "metadata" in data and "completion_percentage" in data["metadata"]:
+                completed = data["metadata"]["completion_percentage"]
+                self.status_label.config(text=f"Loaded previous progress. Completion: {completed}%")
             else:
                 self.status_label.config(text=f"Loaded previous progress from {os.path.basename(progress_file)}")
         except Exception as e:
@@ -491,49 +502,55 @@ class CompactXMLValidator:
             self.load_question(0)
     
     def show_summary(self):
-        """Show a summary of the current validation progress"""
         if not self.segments:
             messagebox.showinfo("No Data", "No questions loaded yet.")
             return
         
-        # Calculate statistics
         total_questions = len(self.segments)
-        rated_questions = sum(1 for qid in [s["question_id"] for s in self.segments] if qid in self.ratings and self.ratings[qid] > 0)
-        commented_questions = sum(1 for qid in [s["question_id"] for s in self.segments] if qid in self.comments and self.comments[qid])
+        checked_questions = sum(1 for qid in [s["question_id"] for s in self.segments] 
+                               if qid in self.checklist and any(self.checklist[qid].values()))
+        commented_questions = sum(1 for qid in [s["question_id"] for s in self.segments] 
+                                 if qid in self.comments and self.comments[qid])
         
-        avg_rating = 0
-        if rated_questions > 0:
-            avg_rating = sum(r for r in self.ratings.values() if r > 0) / rated_questions
+        counts = {
+            "single_sentence": 0,
+            "multiple_sentences": 0,
+            "low_quality_distractors": 0,
+            "unsuitable_paragraph": 0,
+            "unclear_answer": 0,
+            "outside_knowledge": 0
+        }
+        for qid in [s["question_id"] for s in self.segments]:
+            if qid in self.checklist:
+                for criterion, checked in self.checklist[qid].items():
+                    if checked:
+                        counts[criterion] += 1
         
-        # Count by rating
-        rating_counts = {i: 0 for i in range(1, 6)}
-        for r in self.ratings.values():
-            if r > 0:
-                rating_counts[r] += 1
-        
-        # Create summary message
         msg = "VALIDATION SUMMARY\n\n"
         msg += f"Total questions: {total_questions}\n"
-        msg += f"Questions rated: {rated_questions} ({rated_questions/total_questions*100:.1f}%)\n"
-        msg += f"Questions with comments: {commented_questions}\n"
-        msg += f"Average rating: {avg_rating:.1f}/5\n\n"
-        
-        msg += "Rating distribution:\n"
-        for i in range(1, 6):
-            count = rating_counts[i]
-            percentage = count/total_questions*100 if total_questions > 0 else 0
-            msg += f"  {i} star{'s' if i > 1 else ''}: {count} ({percentage:.1f}%)\n"
+        msg += f"Questions checked: {checked_questions} ({checked_questions/total_questions*100:.1f}%)\n"
+        msg += f"Questions with comments: {commented_questions}\n\n"
+        msg += "Checklist percentages:\n"
+        for criterion, count in counts.items():
+            percentage = count / total_questions * 100 if total_questions > 0 else 0
+            label = {
+                "single_sentence": "Cần một câu",
+                "multiple_sentences": "Cần nhiều câu",
+                "low_quality_distractors": "Lựa chọn sai kém chất lượng",
+                "unsuitable_paragraph": "Đoạn văn không phù hợp",
+                "unclear_answer": "Đáp án không rõ ràng",
+                "outside_knowledge": "Cần kiến thức ngoài"
+            }[criterion]
+            msg += f"  {label}: {count} ({percentage:.1f}%)\n"
         
         messagebox.showinfo("Summary Statistics", msg)
     
     def export_json(self):
-        """Export validation results to JSON with metadata"""
         if not self.segments:
             messagebox.showinfo("No Data", "No questions to export.")
             return
         
         try:
-            # Ask for save location
             file_path = filedialog.asksaveasfilename(
                 defaultextension=".json",
                 filetypes=[("JSON files", "*.json"), ("All files", "*.*")],
@@ -541,32 +558,63 @@ class CompactXMLValidator:
             )
             
             if not file_path:
-                return  # User cancelled
+                return
             
-            # Prepare export data
             export_data = {
                 "timestamp": datetime.now().isoformat(),
                 "source_file": os.path.basename(self.xml_file_path) if hasattr(self, 'xml_file_path') else "unknown",
+                "checklist_summary": {},  # New section for checkbox counts and percentages
                 "questions": []
             }
             
-            # Calculate metadata
             total_questions = len(self.segments)
-            rated_questions = sum(1 for qid in [s["question_id"] for s in self.segments] if qid in self.ratings and self.ratings[qid] > 0)
+            checked_questions = sum(1 for qid in [s["question_id"] for s in self.segments] 
+                                   if qid in self.checklist and any(self.checklist[qid].values()))
             
-            avg_rating = 0
-            if rated_questions > 0:
-                avg_rating = sum(r for r in self.ratings.values() if r > 0) / rated_questions
+            # Calculate counts and percentages for each checkbox
+            counts = {
+                "single_sentence": 0,
+                "multiple_sentences": 0,
+                "low_quality_distractors": 0,
+                "unsuitable_paragraph": 0,
+                "unclear_answer": 0,
+                "outside_knowledge": 0
+            }
+            for qid in [s["question_id"] for s in self.segments]:
+                if qid in self.checklist:
+                    for criterion, checked in self.checklist[qid].items():
+                        if checked:
+                            counts[criterion] += 1
             
-            # Add metadata
+            checklist_labels = {
+                "single_sentence": "Cần một câu",
+                "multiple_sentences": "Cần nhiều câu",
+                "low_quality_distractors": "Lựa chọn sai kém chất lượng",
+                "unsuitable_paragraph": "Đoạn văn không phù hợp",
+                "unclear_answer": "Đáp án không rõ ràng",
+                "outside_knowledge": "Cần kiến thức ngoài"
+            }
+            export_data["checklist_summary"] = {
+                criterion: {
+                    "label": checklist_labels[criterion],
+                    "count": count,
+                    "percentage": round(count / total_questions * 100, 2) if total_questions else 0
+                }
+                for criterion, count in counts.items()
+            }
+
+            # Existing metadata with checklist_percentages
             export_data["metadata"] = {
                 "total_questions": total_questions,
-                "questions_rated": rated_questions,
-                "average_rating": round(avg_rating, 2),
-                "completion_percentage": round((rated_questions / total_questions) * 100, 1) if total_questions > 0 else 0
+                "questions_checked": checked_questions,
+                "completion_percentage": round((checked_questions / total_questions) * 100, 1) if total_questions else 0,
+                "checklist_percentages": {
+                    criterion: round(count / total_questions * 100, 2) if total_questions else 0
+                    for criterion, count in counts.items()
+                }
             }
             
-            # Add each question's data
+            # Populate questions data
             for segment in self.segments:
                 question_id = segment["question_id"]
                 segment_id = segment["segment_id"]
@@ -577,48 +625,50 @@ class CompactXMLValidator:
                     "document_title": segment["document_title"],
                     "segment_title": segment.get("segment_title", ""),
                     "question_type": segment.get("question_type", ""),
-                    "rating": self.ratings.get(question_id, None),
+                    "checklist": self.checklist.get(question_id, {
+                        "single_sentence": False,
+                        "multiple_sentences": False,
+                        "low_quality_distractors": False,
+                        "unsuitable_paragraph": False,
+                        "unclear_answer": False,
+                        "outside_knowledge": False
+                    }),
                     "comment": self.comments.get(question_id, "")
                 }
                 
                 export_data["questions"].append(question_data)
             
-            # Write to file
+            # Write JSON file
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(export_data, f, ensure_ascii=False, indent=2)
             
-            # Show success message with statistics
+            # Update export message to show checklist summary
             msg = f"Results exported to:\n{file_path}\n\n"
             msg += f"Summary Statistics:\n"
             msg += f"Total questions: {total_questions}\n"
-            msg += f"Questions rated: {rated_questions} ({rated_questions/total_questions*100:.1f}%)\n"
-            msg += f"Average rating: {avg_rating:.1f}/5"
+            msg += f"Questions checked: {checked_questions} ({checked_questions/total_questions*100:.1f}%)\n"
+            msg += "Checklist summary:\n"
+            for criterion, data in export_data["checklist_summary"].items():
+                msg += f"  {data['label']}: {data['count']} ({data['percentage']:.1f}%)\n"
             
             messagebox.showinfo("Export Complete", msg)
-            
             self.status_label.config(text=f"Exported results to {os.path.basename(file_path)}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to export: {str(e)}")
     
     def on_closing(self):
-        # Save progress before exiting
         if hasattr(self, 'xml_file_path') and self.segments:
             self.save_progress(silent=True)
         self.root.destroy()
 
-# Main function
 def main():
-    # Parse arguments
     import argparse
     parser = argparse.ArgumentParser(description='XML Question Validator')
     parser.add_argument('xml_file', nargs='?', help='XML file to validate')
     args = parser.parse_args()
     
-    # Create the main window
     root = tk.Tk()
     app = CompactXMLValidator(root, args.xml_file)
-    
-    # Start the main loop
     root.mainloop()
 
 if __name__ == "__main__":
