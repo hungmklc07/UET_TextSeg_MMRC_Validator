@@ -1,0 +1,2451 @@
+{
+  "timestamp": "2025-05-05T20:17:01.060189",
+  "checklist": {
+    "q_14893385_686003_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_329546_686003_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_66477_686003_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19435385_851439_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3227542_797883_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_154538_236930_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_192040_686003_09_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13480904_843044_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3258342_70471047_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3524221_686003_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_12100198_888691_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3222814_686003_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13714054_843044_08_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15284626_686003_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": true
+    },
+    "q_19271245_814981_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": true,
+      "outside_knowledge": false
+    },
+    "q_3422718_69842044_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_8239_69908449_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14793684_883941_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1302945_839333_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_509696_814981_08_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": true,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19628773_686003_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19710600_303202_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_6948_814981_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_411095_843044_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1745233_460001_21_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_802915_905261_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_512381_843044_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1646046_715442_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3170401_686003_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_420553_388182_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13476760_686003_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_17511181_738506_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3939_845147_11_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1221502_798851_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_788177_841747_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_102991_333700_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15103323_686003_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_230372_791160_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_459721_68250050_12_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_107785_692475_10_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": true
+    },
+    "q_2430021_912316_08_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3402157_715442_15_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19719789_843896_16_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_41862_904317_09_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13500529_803827_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": true
+    },
+    "q_116550_69948021_14_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_817853_686003_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": true,
+      "outside_knowledge": false
+    },
+    "q_814302_68373872_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14790159_843044_11_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19494160_686003_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_469922_384759_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3146931_341087_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": true
+    },
+    "q_19610888_843044_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_193305_686003_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_29748_760883_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_782640_686003_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_277485_529523_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_2414341_69979471_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15494332_843044_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3868710_5797_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": true,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1410875_814981_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": true,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_37437_771586_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3685904_842911_09_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_328913_821899_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19436222_70462965_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19023800_686003_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": true,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14964704_686003_13_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3224223_686003_08_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1359147_333855_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_7497_686003_11_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14893929_864863_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_185114_70568358_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_779857_814981_08_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_577645_686003_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15292817_686003_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_787510_843044_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_294443_492192_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_324608_686003_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13744248_843044_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15285487_905150_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_12099641_788286_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3656073_843044_09_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1763587_721305_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3431887_813786_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1505174_843044_12_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3394460_340605_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3265739_686003_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_2361083_15735_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": true,
+      "outside_knowledge": false
+    },
+    "q_1746633_309098_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_7505591_686003_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15285297_787108_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_133012_734807_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3411201_855455_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13477643_887787_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_283027_69219764_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_546132_843044_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3189900_781648_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": true
+    },
+    "q_185827_686003_10_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15275950_686003_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14683823_686003_09_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3672337_70557699_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1407114_70373758_11_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3424562_686003_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19333599_814981_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19662755_850399_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19767082_297622_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_7445476_694928_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_507662_813786_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_2447259_15735_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_61887_845147_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14742330_686003_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_2350908_309098_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_141713_881427_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_232161_539651_08_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_18254943_539651_11_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19809178_769406_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3377107_539651_11_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19715417_780814_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_581010_345883_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_417726_556141_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_422047_69689541_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_44692_686003_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3127845_827006_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_411095_843044_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": true,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_12347_241049_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_786124_686003_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3380520_539651_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19487074_843044_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15028117_747571_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_801096_686003_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_54952_914225_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_98757_845147_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3672057_15735_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_532278_69424353_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_266288_658185_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_189631_733134_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_134832_859204_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_7562722_843044_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3679117_70324285_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_129873_845147_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": true,
+      "outside_knowledge": false
+    },
+    "q_15303120_686003_09_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_16531412_539651_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3525233_686003_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1642254_679363_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3672337_70557699_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_38946_850399_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3217115_686003_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15582865_686003_13_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_213117_686003_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13503092_679363_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13696688_888691_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_16456770_863526_09_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_438043_814981_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": true,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_10029077_843044_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19529558_886765_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_441783_843044_10_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14701060_843563_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1405268_889492_15_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_84735_845147_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15413549_345883_08_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19357711_787108_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1302275_390197_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3127371_715442_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13705_859116_12_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_320690_845147_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_56252_912316_09_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_18989686_843044_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3687819_686003_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19817012_603231_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1233126_890449_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_818319_69690034_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_38202_686003_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_16227848_686003_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_9436964_686003_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15276518_69887365_14_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14105475_69400467_10_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19770715_835843_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19532532_816786_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3518532_471274_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3341001_68349698_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19365960_686003_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_82734_738824_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1314397_715442_09_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_249089_341087_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14721369_843044_11_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3684038_853019_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3350211_692475_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3409191_843044_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_18599_686003_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19668056_925159_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_214198_881427_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1751923_686003_08_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_397278_875120_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1614061_345883_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_5962_843044_12_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3331745_686003_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_309032_686003_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_511137_843044_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19550694_631146_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19315981_686003_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14829234_686003_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3677481_686003_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19680242_769406_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_23731_755843_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13482080_686003_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_814761_898482_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13476208_914225_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_33034_721305_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14537323_679363_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_370467_686003_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19659234_812563_12_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19656220_843044_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_454861_727312_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_105489_721305_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_385125_859204_12_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19628112_883941_09_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_76792_845147_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_12651_822668_13_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19587100_912316_09_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_192040_686003_11_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_172852_69633876_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_88673_388182_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_58922_70326912_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19489900_686003_08_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_151375_70523470_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15066157_887787_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_823663_852840_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_69027_59272533_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": true
+    },
+    "q_19333852_925949_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": true
+    },
+    "q_19790646_333700_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_63631_798450_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_143061_343833_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_68035_539651_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3681831_69967447_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_491893_686003_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19356861_686003_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1407693_843044_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_33979_679503_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_7586339_686003_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19435139_686003_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13714769_592764_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_33034_721305_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19272646_390197_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3193323_539651_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_87310_686003_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_218984_68303796_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_454853_859204_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_437211_686003_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14680467_70576277_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1060635_912316_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13475392_827781_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_14670589_411225_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_294675_70544120_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": true,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_197916_791160_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3135807_68968249_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_817573_70530248_08_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_41978_496904_29_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_8526_679503_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_54582_845147_07_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_15112715_686003_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1422473_818124_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19285024_686003_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_17265855_70286958_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19595024_70543729_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1750318_843044_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19481523_686003_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_814274_686003_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_804609_686003_05_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3691159_70592396_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_141195_845147_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19547684_843044_10_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_183599_843044_10_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19740089_843044_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_45134_686003_13_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1749941_904029_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19481119_845147_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_121213_777795_03_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_6512_593120_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_149373_142827_11_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_420449_686003_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_11503911_843044_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19779963_69823910_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_5844_68403436_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_10000439_720497_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_1764842_814981_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_7846260_842911_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_33169_271060_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_2450984_520426_17_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_301410_686003_03_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13696688_888691_04_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19763088_502924_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19425729_814981_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_213226_859204_06_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_663039_912381_04_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3270204_908426_07_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3684038_853019_06_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_19487976_686003_17_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_3242389_686003_02_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_13479584_686003_02_1": {
+      "single_sentence": false,
+      "multiple_sentences": true,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    },
+    "q_60361_887787_05_1": {
+      "single_sentence": true,
+      "multiple_sentences": false,
+      "low_quality_distractors": false,
+      "unsuitable_paragraph": false,
+      "unclear_answer": false,
+      "outside_knowledge": false
+    }
+  },
+  "comments": {
+    "q_14893385_686003_06_1": "",
+    "q_154538_236930_03_1": "Đoạn văn chứa thông tin nhạy cảm (đời tư lãnh tụ), cần cân nhắc ngữ cảnh sử dụng.",
+    "q_192040_686003_09_1": "Đoạn văn không hề nhắc đến \"Nagakute\"",
+    "q_13714054_843044_08_1": "nhiều câu sẽ mang lại thêm sự chắc chắn hơn",
+    "q_15284626_686003_02_1": "Cần phân biệt rõ triệu chứng và bệnh.",
+    "q_19271245_814981_07_1": "cả 2 yếu tố trên là 2 yếu tố nào trong khi có 3 đáp án?",
+    "q_509696_814981_08_1": "\"Quân Tây Sơn\", \"Quân Trịnh\", \"Quân của Trương Văn Ngạc\" không xuất hiện trong đoạn văn, dễ dàng loại bỏ.",
+    "q_1646046_715442_07_1": "nhiều câu thì sẽ xác thực hơn vì 1 câu không thể chắc chắn nói về bộ phim nào",
+    "q_13476760_686003_06_1": "cần nhiều câu mới biết là Angola",
+    "q_107785_692475_10_1": "đoạn văn không có nhắc đến tên huyện",
+    "q_13500529_803827_04_1": "tiếp tục đoạn văn không có nhắc đến \"Heliopolis\"",
+    "q_817853_686003_03_1": "trong đoạn văn ghi là  khí thải nóng từ [[tua bin khí]] hoặc [[động cơ pit-tông]] nhưng đáp án lại chỉ có tua bin khí là đúng",
+    "q_3146931_341087_04_1": "chỉ nói là khi quân mã của Lư Tuấn Nghĩa tiến gần đến cửa ải Dục Linh,chứ không nói chỉ huy chính là Lư Tuấn Nghĩa",
+    "q_15494332_843044_03_1": "Đoạn văn chỉ nói tháp có bốn đồng hồ chứ không nói đến \"số mặt\"",
+    "q_2361083_15735_06_1": "em đang thấy cả đáp án tàu chở hàng cỡ lớn cũng đúng",
+    "q_3189900_781648_07_1": "cần dịch được tiếng anh",
+    "q_3424562_686003_05_1": "nhiều câu sẽ rõ ràng hơn",
+    "q_19333599_814981_02_1": "Chưa hề có mốc thời gian 1982 trong đoạn văn",
+    "q_18254943_539651_11_1": "1 câu thì có thể biết được tesco, nhưng nhiều câu thì mới có thể chắc chắn được là chuỗi siêu thị ở Anh",
+    "q_3377107_539651_11_1": "nhiều câu sẽ giúp chắc chắn hơn là \"vào mùa câu nước đục\"",
+    "q_581010_345883_03_1": "đoạn văn không có nhắc đến tên kiếm \"Zweihänder1\"",
+    "q_3380520_539651_07_1": "nhiều câu thì sẽ xác định thêm được là \"ở Bladenboro\"",
+    "q_129873_845147_02_1": "\"Năm 18 tuổi, ông có được danh hiệu vô địch quốc gia đầu tiên với một câu lạc bộ KHÁC ở Douala\"",
+    "q_19817012_603231_06_1": "nhiều câu sẽ chắc chắn lựa chọn hơn",
+    "q_14105475_69400467_10_1": "câu hỏi bị thừa cả đáp án",
+    "q_3684038_853019_05_1": "phải có khả năng đọc hiểu tốt",
+    "q_814761_898482_03_1": "trong đoạn văn không xuất hiện tên cuốn sách",
+    "q_19489900_686003_08_1": "đoạn văn không hề nhắc đến tên trò chơi",
+    "q_19333852_925949_04_1": "cần kiến thức ngoài mới biết mạng 1.0 là mạng tĩnh",
+    "q_294675_70544120_04_1": "đoạn văn không có nhắc đến tên Trần Thừa"
+  },
+  "current_index": 299,
+  "metadata": {
+    "total_questions": 300,
+    "questions_checked": 300,
+    "completion_percentage": 100.0,
+    "checklist_percentages": {
+      "single_sentence": 56.33,
+      "multiple_sentences": 44.0,
+      "low_quality_distractors": 2.0,
+      "unsuitable_paragraph": 3.67,
+      "unclear_answer": 1.33,
+      "outside_knowledge": 2.33
+    }
+  }
+}
